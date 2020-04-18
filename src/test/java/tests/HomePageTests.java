@@ -35,7 +35,7 @@ public class HomePageTests {
 
 
     @Test(priority = 1)
-    public void openWeatherMap(){
+    public void labelsAndLinksVerification(){
         browser.get(openweathermap);
         topBarVerification();
         navBarVerification();

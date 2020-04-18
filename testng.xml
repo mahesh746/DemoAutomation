@@ -5,7 +5,7 @@
         <classes>
             <class name="tests.HomePageTests">
             <methods>
-                <include name="openWeatherMap"/>
+                <include name="labelsAndLinksVerification"/>
                 <include name="invalidCityNameVerification"/>
                 <include name="validCityNameVerification"/>
                 <include name="apiAndPricingVerification"/>

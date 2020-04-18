@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/arun/Documents/Test/owm">
+        <classes>
+            <class name="tests.HomePageTests">
+            <methods>
+                <include name="openWeatherMap"/>
+                <include name="invalidCityNameVerification"/>
+                <include name="validCityNameVerification"/>
+                <include name="apiAndPricingVerification"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

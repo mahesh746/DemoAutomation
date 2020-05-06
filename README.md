@@ -1,6 +1,4 @@
 # owm
-Health Graph QA Automation Assignment
-
 This repository contains automation tests for openweathermap using selenium with java.
 ## Getting Started
 

@@ -17,13 +17,13 @@
           <include name="jenkinsPageVerifications"/>
         </methods>
       </class> <!-- tests.JenkinsPageTests -->
-      <class name="tests.AjaxCallsTest">
+      <class name="tests.MultipleRadioButtonTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="ajaxCallsTesting"/>
+          <include name="multipleRadioButtonDemo"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.AjaxCallsTest -->
+      </class> <!-- tests.MultipleRadioButtonTest -->
       <class name="tests.TwoInputTest">
         <methods>
           <include name="tearDown"/>

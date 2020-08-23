@@ -1,5 +1,6 @@
-# owm
-This repository contains automation tests for openweathermap using selenium with java.
+# My TestProj
+This repository contains automation tests for seleniumeasy using selenium with java.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.

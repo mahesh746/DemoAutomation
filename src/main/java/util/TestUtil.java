@@ -4,12 +4,10 @@ import base.TestBase;
 
 public class TestUtil extends TestBase {
 
-    public static long PAGE_LOAD_TIMEOUT = 20;
+	// Exit if web site does not load in 60 sec.
+	public static long PAGE_LOAD_TIMEOUT = 60;
 
-    // Website URL
-    public static final String openweathermap = "https://openweathermap.org/";
+	// Web site URL
+	public static final String seleniumEasy = "https://www.seleniumeasy.com/";
 
-    // Test Data
-    public static final String invalidCityName = "invalid city verification";
-    public static final String validCityName = "Bengaluru";
 }

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.SingleRadioButtonTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="singleRadioButtonDemo"/>
+        </methods>
+      </class> <!-- tests.SingleRadioButtonTest -->
+      <class name="tests.JenkinsPageTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="jenkinsPageVerifications"/>
+        </methods>
+      </class> <!-- tests.JenkinsPageTests -->
+      <class name="tests.AjaxCallsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ajaxCallsTesting"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.AjaxCallsTest -->
+      <class name="tests.TwoInputTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startDemoTwoInputs"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TwoInputTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
